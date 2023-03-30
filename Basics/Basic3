@@ -1,0 +1,22 @@
+This time Network Security Sam remembered to upload the password file, but there were deeper problems than that.
+
+Given :
+
+A password input field and submit button
+
+pressed ctrl+u to view source code
+
+we have some html code
+
+<form action="/missions/basic/3/index.php" method="post">
+                     	 <input type="hidden" name="file" value="password.php" />
+                     	 <input type="password" name="password" /><br /><br />
+                     	 <input type="submit" value="submit" /></form>
+
+here we can see that 
+
+password.php file with type="hidden" can be accessed through url
+
+i tired and voila, got the password
+
+Now to Basic challenge 4

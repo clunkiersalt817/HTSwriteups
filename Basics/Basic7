@@ -1,0 +1,42 @@
+
+This time Network Security sam has saved the unencrypted level7 password in an obscurely named file saved in this very directory.
+
+In other unrelated news, Sam has set up a script that returns the output from the UNIX cal command. Here is the script:
+
+Enter the year you wish to view and hit 'view'.
+ 
+Password:
+
+Now to solve this challenge i just tried the unix command ls since the input field was acting like a shell
+
+1. if no input was given then clicking on view presented us with current month and year
+
+2. if we input month and year number it viewed month and year
+
+3. if only year then it viewed all the months of that year
+
+i used a semi-colon to seperate the commands for the script and it ran it to listthe directories and i got the password file
+
+it looked something like this 
+
+        March 2023
+Mon Tue Wed Thu Fri Sat Sun
+          1   2   3   4   5
+  6   7   8   9  10  11  12
+ 13  14  15  16  17  18  19
+ 20  21  22  23  24  25  26
+ 27  28  29  30  31
+
+
+index.php
+level7.php
+cal.pl
+.
+..
+**k1kh31b1n55h.php**
+
+this was the password file name
+
+i opened it from the url and retrieved the password
+
+now to the next challenge Basic 8

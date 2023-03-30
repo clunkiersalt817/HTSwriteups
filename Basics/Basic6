@@ -1,0 +1,35 @@
+An encryption system has been set up, which uses an unknown algorithm to change the text given. Requirements: Persistence, some general cryptography knowledge.
+
+Network Security Sam has encrypted his password. The encryption system is publically available and can be accessed with this form:
+
+**Please enter a string to have it encrypted.
+
+You have recovered his encrypted password. It is:
+
+029g7j=<
+
+Decrypt the password and enter it below to advance to the next level.
+
+Password:**
+
+now to find the code for encryption system i viewed the source code but to no avail
+
+then did some inspecting, but nothing...
+
+the i tried some thing with the encrypt button
+
+i entered a string "123abc"
+the output is "Your encrypted string is: '135dfh'"
+
+again with the string "abc123"
+'ace468'
+
+so i figured out that the encription system is something like offsetting the character with the index number they are present at
+
+hence,  1+0->1
+        2+1->2
+        3+2->5
+        ascii of a + 3->d
+        and so on
+
+found the string and went ahead to the next challenge Basic 7

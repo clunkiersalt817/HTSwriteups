@@ -1,0 +1,23 @@
+This time Sam hardcoded the password into the script. However, the password is long and complex, and Sam is often forgetful. So he wrote a script that would email his password to him automatically in case he forgot. Here is the script:
+
+Now this challenge is good in the sense that it also requires some common sense 
+
+we have a button "Send password to Sam"
+                 "submit"
+and a password field
+
+this time i went to inspect the source code
+because there is a vulnerable script in the html source code itself
+
+<form action="/missions/basic/4/level4.php" method="post">
+    <input type="hidden" name="to" value="sam@hackthissite.org"><input type="submit" value="Send password to Sam"></form>
+
+here in this script we can see that there is a input type="hidden" with a value value="sam@hackthissite.org" 
+
+i did a simple modification and replaced the email address to my email address
+
+and clicked on "Send password to sam" button which instead of sending the password to the real Sam, sent the password to me
+
+and again i found the password
+
+now to challenge Basic 5

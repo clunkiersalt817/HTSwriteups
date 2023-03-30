@@ -1,0 +1,17 @@
+This question was not very difficult but as it is written in the challenge description that this level seems a lot trickier then it actually is..
+
+i was confused at last and then had to see the solution on the web
+
+this happened because i thought this question didn't have any connection to the previous one but i was wrong 
+
+also that we had to run the similar command that we used in the previous challenge i didn't even thought about that so yeah the question was trickier for me 
+
+this line in the description also manifested confusion "script finds the first occurance of '<--', and looks to see what follows directly after it" as it does nothing and has no use
+
+the solution was to just run the same command in the password input field 
+
+<!--exec cmd="ls /var/www/hackthissite.org/html/missions/basic/9/"-->
+
+we get the password file name and can enter the url to view password
+
+now to next challenge Basic 10

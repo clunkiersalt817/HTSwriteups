@@ -1,0 +1,13 @@
+A slightly more difficult challenge, involving an incomplete password script. Requirements: Common sense.
+
+Network Security Sam set up a password protection script. He made it load the real password from an unencrypted text file and compare it to the password the user enters. **However, he neglected to upload the password file...**
+
+similar to previous challenge the page provided a password input field and a submit button
+
+as you can see sam didn't upload the password file and that's again what makes this challenge easy but uses common sense
+
+just press "Submit" without giving any password because since there is no password file to check the input password with...
+
+yeah you get it 
+
+now to next challenge Basic 3

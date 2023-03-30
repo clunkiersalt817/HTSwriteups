@@ -1,0 +1,27 @@
+The password is yet again hidden in an unknown file. Sam's daughter has begun learning PHP, and has a small script to
+demonstrate her knowledge. Requirements: Knowledge of SSI (dynamic html executed by the server, rather than the browser)
+
+Sam remains confident that an obscured password file is still the best idea, but he screwed up with the calendar
+program. Sam has saved the unencrypted password file in /var/www/hackthissite.org/html/missions/basic/8/
+
+However, Sam's young daughter Stephanie has just learned to program in PHP. She's talented for her age, but she knows
+nothing about security. She recently learned about saving files, and she wrote a script to demonstrate her ability.
+
+SSI is a server-side include, which means that the server will execute the code in the file, and then insert the result
+into the page. This is different from client-side includes, which are executed by the browser. SSI is a very powerful
+tool, and can be used to include the contents of a file, or to execute a program. The syntax for SSI is
+<!--#exec cmd="ls ../"--> . The virtual attribute tells the server to look for the file in the same directory
+as the current file. The file can be any type of file, including PHP, HTML, or even a binary executable.
+
+we can easily run the command <!--#exec cmd="ls"--> to get the list of files in the present directory
+the output is something like this  ->
+Hi,  fviqpmaw.shtml kqbybdzc.shtml dzrnmzgx.shtml npcsygfl.shtml! Your name contains 254 characters.
+
+now we can use the command <!--#exec cmd="ls .."--> to get the previous directory listing
+
+the output is something like this ->
+Hi, au12ha39vc.php index.php level8.php tmp! Your name contains 39 characters.
+
+file au12ha39vc.php contains the password
+
+now to the next challenge Basic 9
