@@ -1,0 +1,16 @@
+This challenge was fairly easy
+
+if you don't know much javascript then also just the basic will suffice for this challenge as it checks if you can modify cookie
+
+i clicked inspect and went into console then ran
+
+document.cookie
+output: 
+'level10_authorized=no; HackThisSite=2kvfr5hm9ga7vpl6vvil3foja5'
+
+i changed the value from no to yes and refreshed the site and got accessed
+document.cookie="level10_authorized=yes"
+
+easy
+
+now to next  and the last challenge Basic 11
